@@ -21,5 +21,9 @@ The next phase of the project is to design and implement the search and evaluati
 
 2. Run the Main Class;
 
+3. Enter valid FEN string or use the start fen provided and click 'set board';
+
+4. Select the player, square and piece and select genrate moves to see attack moves, legal moves and blocked moves;
+
 # Note:
-The gui is meant to demonstrate basic board representation. The engine can translate between a fen string and its internal board rep but this is mainly necessary for UCI integration. Some moves will not be generate, such as ...
+The gui is meant to demonstrate basic board representation and board generation. The engine can translate between a fen string and its internal board rep but this is mainly necessary for UCI integration. Pawn moves from certain squares will not be generated because the parsing of a pawn's moves is particularly dependent on gameplay.
