@@ -17,7 +17,7 @@ The next phase of the project is to design and implement the search and evaluati
 
 
 # To Run:
-1. Create a MYSQL Database Table named "CHESS"; (This can be automated but the source code would still need to be edited to grant access to the database);
+1. Create a MYSQL Database  named "CHESS"; (This can be automated but the source code would still need to be edited to grant access to the database);
 
 2. Run the Main Class in the src folder;
 
